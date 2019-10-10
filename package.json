@@ -1,20 +1,44 @@
 {
-  "name": "cordova-plugin-wezka-nativecamera",
-  "version": "1.1.0",
-  "description": "com.wezka.nativecamera ==========================",
-  "repository": {
+  "_from": "git://github.com/adityak74/cordova-plugin-wezka-nativecamera.git#a80ef6107def5638e02d84b000f2caaaa2c5c228",
+  "_id": "cordova-plugin-wezka-nativecamera@1.1.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-camera2",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "git+https://github.com/broncha/cordova-plugin-wezka-nativecamera.git"
+    "raw": "cordova-plugin-camera2@git://github.com/adityak74/cordova-plugin-wezka-nativecamera.git#a80ef6107def5638e02d84b000f2caaaa2c5c228",
+    "name": "cordova-plugin-camera2",
+    "escapedName": "cordova-plugin-camera2",
+    "rawSpec": "git://github.com/adityak74/cordova-plugin-wezka-nativecamera.git#a80ef6107def5638e02d84b000f2caaaa2c5c228",
+    "saveSpec": "git://github.com/adityak74/cordova-plugin-wezka-nativecamera.git#a80ef6107def5638e02d84b000f2caaaa2c5c228",
+    "fetchSpec": "git://github.com/adityak74/cordova-plugin-wezka-nativecamera.git",
+    "gitCommittish": "a80ef6107def5638e02d84b000f2caaaa2c5c228"
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/adityak74/cordova-plugin-wezka-nativecamera.git#a80ef6107def5638e02d84b000f2caaaa2c5c228",
+  "_spec": "cordova-plugin-camera2@git://github.com/adityak74/cordova-plugin-wezka-nativecamera.git#a80ef6107def5638e02d84b000f2caaaa2c5c228",
+  "_where": "/Users/aditya/eplata/web-app",
   "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/broncha/cordova-plugin-wezka-nativecamera/issues"
   },
+  "bundleDependencies": false,
   "cordova": {
     "platforms": [
       "android"
     ]
   },
-  "homepage": "https://github.com/broncha/cordova-plugin-wezka-nativecamera#readme"
+  "deprecated": false,
+  "description": "com.wezka.nativecamera ==========================",
+  "homepage": "https://github.com/broncha/cordova-plugin-wezka-nativecamera#readme",
+  "license": "ISC",
+  "name": "cordova-plugin-wezka-nativecamera",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/broncha/cordova-plugin-wezka-nativecamera.git"
+  },
+  "version": "1.1.0"
 }

@@ -5,22 +5,22 @@
       version="0.1.9">
     <name>TmanTman Native Camera</name>
 
-    <js-module src="www/CameraConstants.js" name="Camera">
-        <clobbers target="Camera" />
+    <js-module src="www/CameraConstants.js" name="Camera2">
+        <clobbers target="Camera2" />
     </js-module>
 
-    <js-module src="www/CameraPopoverOptions.js" name="CameraPopoverOptions">
-        <clobbers target="CameraPopoverOptions" />
+    <js-module src="www/CameraPopoverOptions.js" name="CameraPopoverOptions2">
+        <clobbers target="CameraPopoverOptions2" />
     </js-module>
 
-    <js-module src="www/Camera.js" name="camera">
-        <clobbers target="navigator.camera" />
+    <js-module src="www/Camera.js" name="camera2">
+        <clobbers target="navigator.camera2" />
     </js-module>
 
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="Camera">
+            <feature name="Camera2">
                 <param name="android-package" value="com.tmantman.nativecamera.NativeCameraLauncher"/>
             </feature>
         </config-file>
@@ -52,8 +52,8 @@
         <source-file src="res/btn_flash_auto.png" target-dir="res/drawable" />
         <source-file src="res/viewfinder.png" target-dir="res/drawable" />
 
-        <js-module src="www/CameraPopoverHandle.js" name="CameraPopoverHandle">
-            <clobbers target="CameraPopoverHandle" />
+        <js-module src="www/CameraPopoverHandle.js" name="CameraPopoverHandle2">
+            <clobbers target="CameraPopoverHandle2" />
         </js-module>
 
      </platform>

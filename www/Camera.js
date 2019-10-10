@@ -21,8 +21,8 @@
 
 var argscheck = require('cordova/argscheck'),
     exec = require('cordova/exec'),
-    Camera = require('./Camera'),
-    CameraPopoverHandle = require('./CameraPopoverHandle');
+    Camera = require('./Camera2'),
+    CameraPopoverHandle = require('./CameraPopoverOptions2');
 
 var cameraExport = {};
 
@@ -42,7 +42,7 @@ for (var key in Camera) {
  * @param {Object} options
  */
 cameraExport.getPicture = function(successCallback, errorCallback, options) {
-    argscheck.checkArgs('fFO', 'Camera.getPicture', arguments);
+    argscheck.checkArgs('fFO', 'Camera2.getPicture', arguments);
     options = options || {};
     var getValue = argscheck.getValue;
 
@@ -62,12 +62,13 @@ cameraExport.getPicture = function(successCallback, errorCallback, options) {
     var args = [quality, destinationType, sourceType, targetWidth, targetHeight, encodingType,
                 mediaType, allowEdit, correctOrientation, saveToPhotoAlbum, popoverOptions, cameraDirection];
 
-    exec(successCallback, errorCallback, "Camera", "takePicture", args);
-    return new CameraPopoverHandle();
+    exec(successCallback, errorCallback, "Camera2", "takePicture", args);
+    // commented out in apache plugin too.
+    // return new CameraPopoverHandle();
 };
 
 cameraExport.cleanup = function(successCallback, errorCallback) {
-    exec(successCallback, errorCallback, "Camera", "cleanup", []);
+    exec(successCallback, errorCallback, "Camera2", "cleanup", []);
 };
 
 module.exports = cameraExport;
