@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-           id="com.tmantman.nativecamera"
+           id="cordova-plugin-camera2"
       version="0.1.9">
     <name>TmanTman Native Camera</name>
 
